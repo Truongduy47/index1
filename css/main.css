@@ -1,0 +1,438 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	margin: 0;
+}
+
+
+#container
+{
+	width: 100%;
+	height: 2000px;
+	background-color: antiquewhite;
+}
+.header
+{
+	width: 100%;
+	height: 70px;
+	background-color:yellowgreen;
+}
+.ran
+{
+	width: 100%;
+	height: 500px;
+	background: #D20003;
+}
+.pic
+{
+	width: 25%;
+	height: 500px;
+	background-color: aqua;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+.nen01
+{
+	background: url(  "../images/25.png");
+	background-repeat: no-repeat;
+	
+}
+.nen02
+{
+	background: url(  "../images/29.png");
+	background-repeat: no-repeat;
+	
+}
+.nen03
+{
+	background: url(  "../images/28.png");
+	background-repeat: no-repeat;
+	
+}
+.nen04
+{
+	background: url(  "../images/26.png");
+	background-repeat: no-repeat;
+	
+}
+.leble01
+{
+	width: 100%;
+	height: 500px;
+	background: url("../images/33.png");
+}
+.leble02
+{
+	width: 100%;
+	height: 500px;
+	background: url( "../images/30.jpg");
+}
+.leble03
+{
+	width: 100%;
+	height: 500px;
+	background: url( "../images/31.png");
+}
+.leble04
+{
+	width: 100%;
+	height: 500px;
+	background: url( "../images/32.png");
+}
+.pic .leble01
+{
+	opacity: 0;
+	transition: all 2s linear;
+}
+.pic:hover .leble01
+{
+	opacity: 1;
+}
+/*leble02*/
+.pic .leble02
+{
+	opacity: 0;
+	transition: all 2s linear;
+}
+.pic:hover .leble02
+{
+	opacity: 1;
+}
+/*leble03*/
+.pic .leble03
+{
+	opacity: 0;
+	transition: all 2s linear;
+}
+.pic:hover .leble03
+{
+	opacity: 1;
+}
+/*leble04*/
+.pic .leble04
+{
+	opacity: 0;
+	transition: all 2s linear;
+}
+.pic:hover .leble04
+{
+	opacity: 1;
+}
+.tex01
+{
+	width: 100%;
+	height: 30%;
+	background:rgba(0,0,0,0.50);
+	color: white;
+	position: absolute;
+	top:90%;
+	padding: 10px;
+	box-sizing: border-box;
+
+}
+.tex02
+{
+	width: 100%;
+	height: 30%;
+	background:rgba(0,0,0,0.50);
+	color: white;
+	position: absolute;
+	top:90%;
+	padding: 10px;
+	box-sizing: border-box;
+
+}
+.tex03
+{
+	width: 100%;
+	height: 30%;
+	background:rgba(0,0,0,0.50);
+	color: white;
+	position: absolute;
+	top:90%;
+	padding: 10px;
+	box-sizing: border-box;
+
+}
+.tex04
+{
+	width: 100%;
+	height: 30%;
+	background:rgba(0,0,0,0.50);
+	color: white;
+	position: absolute;
+	top:90%;
+	padding: 10px;
+	box-sizing: border-box;
+
+}
+.pic .tex01
+{
+	top:90%;
+	transition: all 1s;
+}
+.pic:hover .tex01
+{
+	top:70%;
+}
+.pic .tex02
+{
+	top:90%;
+	transition: all 1s;
+}
+.pic:hover .tex02
+{
+	top:70%;
+}
+.pic .tex03
+{
+	top:90%;
+	transition: all 1s;
+}
+.pic:hover .tex03
+{
+	top:70%;
+}
+.pic .tex04
+{
+	top:90%;
+	transition: all 1s;
+}
+.pic:hover .tex04
+{
+	top:70%;
+}
+
+
+
+.logo
+{
+	width: 30%;
+	height: 70px;
+	float: left;
+	background-color:white;
+}
+
+
+.menu
+{
+	width: 70%;
+	height: 70px;
+	float: right;
+		background-color:white;
+}
+.menu ul 
+{
+	list-style: none;
+}
+
+.menu ul li
+{
+	float: left;
+	padding: 20px 60px;
+}
+.menu ul li a
+{
+	text-decoration: none;
+	color: rgba(73,72,72,1.00);
+}
+
+.menu ul li a:hover
+{
+	color: tomato;
+}
+
+/*side meu*/
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align:center;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+
+}
+
+.sidenav a:hover{
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.slider
+{
+	width: 100%;
+	height: 750px;
+	background-color:aquamarine;
+}
+.slider_a
+{
+	width: 50%;
+	height: 750px;
+	float: left;
+	background-color: yellow;
+	padding: 20px 100px 0 100px;
+	box-sizing: border-box;
+	font-family: ten01;
+}
+
+@font-face
+{
+	src: url("../font/Outfit-VariableFont_wght.ttf");
+	font-family: ten01;
+}
+.skin 
+{
+	width: 100%;
+	height: 600px;
+	background: #00520B;
+	padding: 0 150px;
+	box-sizing: border-box;
+		
+}
+.skin_a
+{
+	width: 50%;
+	height: 600px;
+	background-color: yellow;
+	float: left;
+}
+.skin_aleft
+{
+	width: 50%;
+	height: 600px;
+	background-color: aqua;
+	float: left;
+	overflow: hidden;
+}
+.skin_aleft img
+{
+	opacity: 1;
+	transition: all 0.5s linear;
+}
+
+.skin_aleft:hover img
+{
+	opacity: 0.5;
+}
+
+
+
+
+.skin_atop
+{
+	width: 100%;
+	height: 300px;
+	background-color: darkblue;
+	overflow: hidden;
+	
+}
+.skin_b
+{
+	width: 50%;
+	height: 600px;
+	background-color: darkorchid;
+	float: right;
+	overflow: hidden;
+	position: relative;
+}
+.skin_b img
+{
+	opacity: 1;
+	transition: all 0.5s linear;
+}
+.skin_b:hover img
+{
+	opacity: 0.5;
+	transition: all 0.5s linear;
+}
+.lable
+{
+	width: 100px;
+	height: 100px;
+	background-color: teal;
+	position: absolute;
+	top: 250px;
+	left: 200px;
+	opacity: 0;
+}
+.skin_b .lable
+{
+	opacity: 0;
+	transition: all 0.5s linear;
+
+}
+.skin_b:hover .lable
+{
+	opacity: 1;
+
+}
+
+
+
+button
+{
+	width: 180px;
+	height: 50px;
+	background-color: aqua;
+	border-radius: 30px;
+	
+}
+
+
+
+.lienhe
+{
+	width: 100%;
+	height: 700px;
+	background-color: aquamarine;
+	padding:  5% 15%;
+	box-sizing: border-box;
+	coler: red; 
+		
+}
+input
+{
+	width: 300px;
+	height: 20px;
+	padding: 5px;
+	box-sizing: border-box;
+}
+select
+{
+	width: 200px;
+	height: 30px;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+	
+
